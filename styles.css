@@ -1,0 +1,88 @@
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing: border-box;
+}
+
+body{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #AEF3E7;
+  color:rgb(255, 252, 252);
+}
+
+.max-container{
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ height:100vh;
+}
+
+.container{
+  background-color: #37718E;
+  padding:30px 30px;
+  border-radius: 10px;
+  width:600px;
+  display:flex;
+  flex-direction: column;
+
+}
+
+.enter-number{
+  display:flex;
+  justify-content: center;
+  margin-top:20px;
+}
+
+input{
+  width:50%;
+  margin-left:20px;
+  border-radius: 5px;
+}
+
+.see-array{
+  height:100px;
+}
+
+.instructions{
+  width:500px;
+  text-align: center;
+  margin:auto;
+}
+
+h1{
+  font-size: 31px;
+  margin-bottom: 20px;;
+}
+
+p{
+  text-align: left;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+.result{
+  width:400px;
+  margin-left:20px;
+  margin-top:20px;
+}
+
+.result>div{
+  margin:10px 0px;
+  font-size: 24px;
+}
+
+div:first-of-type{
+  font-size: 22px;
+}
+
+.result>div>span{
+  margin-left: 10px;
+}
+
+.result-number{
+  font-size: 28px;
+  background-color: white;
+  color: black;
+  padding:5px 10px;
+  border-radius: 5px;
+}
